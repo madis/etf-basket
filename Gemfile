@@ -64,8 +64,10 @@ group :development, :test do
   gem 'rubocop', require: false
   gem 'shoulda-matchers', require: false
   gem 'spring-commands-rspec'
+  gem 'awesome_print'
 end
 
 group :test do
   gem 'database_cleaner'
+  gem "rspec_junit_formatter"
 end
