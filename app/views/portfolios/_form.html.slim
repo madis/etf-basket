@@ -7,7 +7,11 @@
           - @portfolio.errors.full_messages.each do |message|
             li = message
 
-    .field
+    .field.mb-3
       = f.label :name
       = f.text_field :name, class: 'form-control'
-    .actions = f.submit 'Create', role: 'button', class: 'btn btn-primary'
+    .field.mb-3
+      = f.label :etf
+      = f.collection_select :etf_ids, Etf.all, :id, :name, {multiple: true}, {class: 'custom-select'}
+    hr.mb-4
+    .actions = f.submit submit_label, role: 'button', class: 'btn btn-primary'

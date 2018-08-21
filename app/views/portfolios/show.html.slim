@@ -1,8 +1,28 @@
 p#notice = notice
 
-p
-  strong Name:
-  = @portfolio.name
+.py-5.text-center
+  h1= @portfolio.name
+  h3 Constituents
+
+.row
+  .col-md-8
+    table.table.table-striped.table-sm
+      thead
+        tr
+          th Name
+          th Symbol
+          th
+          th
+
+      tbody
+        - @portfolio.etfs.each do |etf|
+          tr
+            td = etf.symbol
+            td = etf.name
+            td = link_to 'Buy', edit_portfolio_path(@portfolio)
+            td = link_to 'Destroy', @portfolio, data: { confirm: 'Are you sure?' }, method: :delete
+.col-md-8
+  .row
 
 => link_to 'Edit', edit_portfolio_path(@portfolio)
 '|

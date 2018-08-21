@@ -59,6 +59,7 @@ group :development, :test do
   gem 'shoulda-matchers', require: false
   gem 'spring-commands-rspec'
   gem 'awesome_print'
+  gem 'thor'
 end
 
 group :test do

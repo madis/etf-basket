@@ -1,0 +1,2021 @@
+---
+- :company: Apple Inc.
+  :symbol: AAPL
+  :weight: 3.955841
+  :price: 217.62
+- :company: Microsoft Corporation
+  :symbol: MSFT
+  :weight: 3.287111
+  :price: 107.485
+- :company: Amazon.com Inc.
+  :symbol: AMZN
+  :weight: 2.972299
+  :price: 1881.52
+- :company: Facebook Inc. Class A
+  :symbol: FB
+  :weight: 2.041642
+  :price: 173.73
+- :company: Berkshire Hathaway Inc. Class B
+  :symbol: BRK.B
+  :weight: 1.561981
+  :price: 208.08
+- :company: JPMorgan Chase & Co.
+  :symbol: JPM
+  :weight: 1.549776
+  :price: 114.695
+- :company: Exxon Mobil Corporation
+  :symbol: XOM
+  :weight: 1.505386
+  :price: 78.215
+- :company: Alphabet Inc. Class C
+  :symbol: GOOG
+  :weight: 1.467218
+  :price: 1200.45
+- :company: Alphabet Inc. Class A
+  :symbol: GOOGL
+  :weight: 1.459732
+  :price: 1215.74
+- :company: Johnson & Johnson
+  :symbol: JNJ
+  :weight: 1.419388
+  :price: 134.48
+- :company: Bank of America Corp
+  :symbol: BAC
+  :weight: 1.172799
+  :price: 30.74
+- :company: Chevron Corporation
+  :symbol: CVX
+  :weight: 1.041604
+  :price: 117.8
+- :company: Visa Inc. Class A
+  :symbol: V
+  :weight: 1.028505
+  :price: 141.38
+- :company: UnitedHealth Group Incorporated
+  :symbol: UNH
+  :weight: 1.020916
+  :price: 262.31
+- :company: Wells Fargo & Company
+  :symbol: WFC
+  :weight: 1.020224
+  :price: 58.855
+- :company: AT&T Inc.
+  :symbol: T
+  :weight: 1.010885
+  :price: 33.025
+- :company: Intel Corporation
+  :symbol: INTC
+  :weight: 0.995461
+  :price: 47.085
+- :company: Home Depot Inc.
+  :symbol: HD
+  :weight: 0.976854
+  :price: 195.65
+- :company: Pfizer Inc.
+  :symbol: PFE
+  :weight: 0.922698
+  :price: 42.065
+- :company: Verizon Communications Inc.
+  :symbol: VZ
+  :weight: 0.911548
+  :price: 54.785
+- :company: Cisco Systems Inc.
+  :symbol: CSCO
+  :weight: 0.876108
+  :price: 45.875
+- :company: Procter & Gamble Company
+  :symbol: PG
+  :weight: 0.85135
+  :price: 83.69
+- :company: Boeing Company
+  :symbol: BA
+  :weight: 0.795004
+  :price: 346.35
+- :company: Mastercard Incorporated Class A
+  :symbol: MA
+  :weight: 0.783933
+  :price: 203.03
+- :company: Netflix Inc.
+  :symbol: NFLX
+  :weight: 0.745577
+  :price: 316.78
+- :company: Citigroup Inc.
+  :symbol: C
+  :weight: 0.739788
+  :price: 69.64
+- :company: Coca-Cola Company
+  :symbol: KO
+  :weight: 0.722143
+  :price: 46.6
+- :company: Merck & Co. Inc.
+  :symbol: MRK
+  :weight: 0.703687
+  :price: 69.045
+- :company: Walt Disney Company
+  :symbol: DIS
+  :weight: 0.675715
+  :price: 112.45
+- :company: PepsiCo Inc.
+  :symbol: PEP
+  :weight: 0.668415
+  :price: 114.99
+- :company: DowDuPont Inc.
+  :symbol: DWDP
+  :weight: 0.665962
+  :price: 67.76
+- :company: Comcast Corporation Class A
+  :symbol: CMCSA
+  :weight: 0.650017
+  :price: 35.59
+- :company: NVIDIA Corporation
+  :symbol: NVDA
+  :weight: 0.634164
+  :price: 244.6
+- :company: AbbVie Inc.
+  :symbol: ABBV
+  :weight: 0.607824
+  :price: 98.78
+- :company: Oracle Corporation
+  :symbol: ORCL
+  :weight: 0.566763
+  :price: 48.36
+- :company: Philip Morris International Inc.
+  :symbol: PM
+  :weight: 0.550615
+  :price: 85.04
+- :company: Walmart Inc.
+  :symbol: WMT
+  :weight: 0.538306
+  :price: 97.9
+- :company: McDonald's Corporation
+  :symbol: MCD
+  :weight: 0.532462
+  :price: 161.16
+- :company: Amgen Inc.
+  :symbol: AMGN
+  :weight: 0.529605
+  :price: 197.43
+- :company: General Electric Company
+  :symbol: GE
+  :weight: 0.521033
+  :price: 12.305
+- :company: International Business Machines Corporation
+  :symbol: IBM
+  :weight: 0.518174
+  :price: 146.03
+- :company: Adobe Systems Incorporated
+  :symbol: ADBE
+  :weight: 0.512251
+  :price: 245.55
+- :company: Medtronic plc
+  :symbol: MDT
+  :weight: 0.507112
+  :price: 90.565
+- :company: 3M Company
+  :symbol: MMM
+  :weight: 0.504405
+  :price: 204.88
+- :company: Union Pacific Corporation
+  :symbol: UNP
+  :weight: 0.473434
+  :price: 149.42
+- :company: Altria Group Inc
+  :symbol: MO
+  :weight: 0.470347
+  :price: 60.985
+- :company: Abbott Laboratories
+  :symbol: ABT
+  :weight: 0.46592
+  :price: 64.715
+- :company: Honeywell International Inc.
+  :symbol: HON
+  :weight: 0.464922
+  :price: 155.1
+- :company: Texas Instruments Incorporated
+  :symbol: TXN
+  :weight: 0.463676
+  :price: 109.63
+- :company: Accenture Plc Class A
+  :symbol: ACN
+  :weight: 0.458743
+  :price: 164.91
+- :company: Broadcom Inc.
+  :symbol: AVGO
+  :weight: 0.436318
+  :price: 209.28
+- :company: Booking Holdings Inc.
+  :symbol: BKNG
+  :weight: 0.422106
+  :price: 1841.55
+- :company: salesforce.com inc.
+  :symbol: CRM
+  :weight: 0.413345
+  :price: 145.01
+- :company: Schlumberger NV
+  :symbol: SLB
+  :weight: 0.402608
+  :price: 62.82
+- :company: United Technologies Corporation
+  :symbol: UTX
+  :weight: 0.402133
+  :price: 134.4
+- :company: PayPal Holdings Inc
+  :symbol: PYPL
+  :weight: 0.399347
+  :price: 85.47
+- :company: NIKE Inc. Class B
+  :symbol: NKE
+  :weight: 0.398962
+  :price: 79.74
+- :company: Gilead Sciences Inc.
+  :symbol: GILD
+  :weight: 0.397885
+  :price: 72.89
+- :company: Costco Wholesale Corporation
+  :symbol: COST
+  :weight: 0.397077
+  :price: 225.68
+- :company: Bristol-Myers Squibb Company
+  :symbol: BMY
+  :weight: 0.392076
+  :price: 60.9
+- :company: QUALCOMM Incorporated
+  :symbol: QCOM
+  :weight: 0.359496
+  :price: 66.08
+- :company: Thermo Fisher Scientific Inc.
+  :symbol: TMO
+  :weight: 0.3588
+  :price: 230.01
+- :company: Eli Lilly and Company
+  :symbol: LLY
+  :weight: 0.354227
+  :price: 105.54
+- :company: Caterpillar Inc.
+  :symbol: CAT
+  :weight: 0.352787
+  :price: 139.35
+- :company: ConocoPhillips
+  :symbol: COP
+  :weight: 0.347084
+  :price: 69.74
+- :company: Lowe's Companies Inc.
+  :symbol: LOW
+  :weight: 0.342315
+  :price: 97.99
+- :company: NextEra Energy Inc.
+  :symbol: NEE
+  :weight: 0.341115
+  :price: 175.145
+- :company: Goldman Sachs Group Inc.
+  :symbol: GS
+  :weight: 0.340861
+  :price: 233.44
+- :company: U.S. Bancorp
+  :symbol: USB
+  :weight: 0.337147
+  :price: 53.28
+- :company: Lockheed Martin Corporation
+  :symbol: LMT
+  :weight: 0.31812
+  :price: 325.08
+- :company: United Parcel Service Inc. Class B
+  :symbol: UPS
+  :weight: 0.316686
+  :price: 121.78
+- :company: EOG Resources Inc.
+  :symbol: EOG
+  :weight: 0.310089
+  :price: 114.76
+- :company: American Express Company
+  :symbol: AXP
+  :weight: 0.301111
+  :price: 102.98
+- :company: Starbucks Corporation
+  :symbol: SBUX
+  :weight: 0.290597
+  :price: 53.575
+- :company: CVS Health Corporation
+  :symbol: CVS
+  :weight: 0.290081
+  :price: 73.67
+- :company: Morgan Stanley
+  :symbol: MS
+  :weight: 0.285548
+  :price: 48.375
+- :company: Becton Dickinson and Company
+  :symbol: BDX
+  :weight: 0.277819
+  :price: 253.04
+- :company: Occidental Petroleum Corporation
+  :symbol: OXY
+  :weight: 0.277028
+  :price: 78.52
+- :company: American Tower Corporation
+  :symbol: AMT
+  :weight: 0.276365
+  :price: 151.155
+- :company: PNC Financial Services Group Inc.
+  :symbol: PNC
+  :weight: 0.276141
+  :price: 144.52
+- :company: Charles Schwab Corporation
+  :symbol: SCHW
+  :weight: 0.269336
+  :price: 50.91
+- :company: BlackRock Inc.
+  :symbol: BLK
+  :weight: 0.268345
+  :price: 474.265
+- :company: Micron Technology Inc.
+  :symbol: MU
+  :weight: 0.267328
+  :price: 47.075
+- :company: Anthem Inc.
+  :symbol: ANTM
+  :weight: 0.264851
+  :price: 263.96
+- :company: Biogen Inc.
+  :symbol: BIIB
+  :weight: 0.263818
+  :price: 345.09
+- :company: Aetna Inc.
+  :symbol: AET
+  :weight: 0.263
+  :price: 198.91
+- :company: Danaher Corporation
+  :symbol: DHR
+  :weight: 0.262964
+  :price: 100.65
+- :company: Mondelez International Inc. Class A
+  :symbol: MDLZ
+  :weight: 0.261709
+  :price: 42.695
+- :company: TJX Companies Inc
+  :symbol: TJX
+  :weight: 0.260361
+  :price: 100.32
+- :company: Automatic Data Processing Inc.
+  :symbol: ADP
+  :weight: 0.25655
+  :price: 142.56
+- :company: Chubb Limited
+  :symbol: CB
+  :weight: 0.255914
+  :price: 134.005
+- :company: Activision Blizzard Inc.
+  :symbol: ATVI
+  :weight: 0.250963
+  :price: 69.13
+- :company: Allergan plc
+  :symbol: AGN
+  :weight: 0.247892
+  :price: 185.61
+- :company: Colgate-Palmolive Company
+  :symbol: CL
+  :weight: 0.246235
+  :price: 67.5
+- :company: CME Group Inc. Class A
+  :symbol: CME
+  :weight: 0.242026
+  :price: 169.43
+- :company: CSX Corporation
+  :symbol: CSX
+  :weight: 0.241474
+  :price: 73.665
+- :company: FedEx Corporation
+  :symbol: FDX
+  :weight: 0.240927
+  :price: 246.85
+- :company: Duke Energy Corporation
+  :symbol: DUK
+  :weight: 0.240919
+  :price: 82.27
+- :company: Raytheon Company
+  :symbol: RTN
+  :weight: 0.240389
+  :price: 199.03
+- :company: Bank of New York Mellon Corporation
+  :symbol: BK
+  :weight: 0.238045
+  :price: 51.69
+- :company: Intuitive Surgical Inc.
+  :symbol: ISRG
+  :weight: 0.237702
+  :price: 524.95
+- :company: Charter Communications Inc. Class A
+  :symbol: CHTR
+  :weight: 0.237117
+  :price: 299.51
+- :company: Celgene Corporation
+  :symbol: CELG
+  :weight: 0.235145
+  :price: 90.35
+- :company: Stryker Corporation
+  :symbol: SYK
+  :weight: 0.235109
+  :price: 169.95
+- :company: Northrop Grumman Corporation
+  :symbol: NOC
+  :weight: 0.232753
+  :price: 294.29
+- :company: Simon Property Group Inc.
+  :symbol: SPG
+  :weight: 0.229517
+  :price: 178.48
+- :company: Twenty-First Century Fox Inc. Class A
+  :symbol: FOXA
+  :weight: 0.227644
+  :price: 45.355
+- :company: General Dynamics Corporation
+  :symbol: GD
+  :weight: 0.224043
+  :price: 193.72
+- :company: S&P Global Inc.
+  :symbol: SPGI
+  :weight: 0.223244
+  :price: 203.05
+- :company: General Motors Company
+  :symbol: GM
+  :weight: 0.222949
+  :price: 36.38
+- :company: Walgreens Boots Alliance Inc
+  :symbol: WBA
+  :weight: 0.220846
+  :price: 69.98
+- :company: Intuit Inc.
+  :symbol: INTU
+  :weight: 0.215716
+  :price: 207.81
+- :company: American International Group Inc.
+  :symbol: AIG
+  :weight: 0.206585
+  :price: 52.59
+- :company: Valero Energy Corporation
+  :symbol: VLO
+  :weight: 0.203993
+  :price: 110.93
+- :company: Southern Company
+  :symbol: SO
+  :weight: 0.203341
+  :price: 46.97
+- :company: Phillips 66
+  :symbol: PSX
+  :weight: 0.202612
+  :price: 115.365
+- :company: Cognizant Technology Solutions Corporation Class A
+  :symbol: CTSH
+  :weight: 0.199916
+  :price: 75.55
+- :company: Applied Materials Inc.
+  :symbol: AMAT
+  :weight: 0.198096
+  :price: 43.685
+- :company: Deere & Company
+  :symbol: DE
+  :weight: 0.196115
+  :price: 140.61
+- :company: Praxair Inc.
+  :symbol: PX
+  :weight: 0.195302
+  :price: 155.925
+- :company: Capital One Financial Corporation
+  :symbol: COF
+  :weight: 0.195073
+  :price: 99.16
+- :company: Boston Scientific Corporation
+  :symbol: BSX
+  :weight: 0.194512
+  :price: 34.425
+- :company: Dominion Energy Inc
+  :symbol: D
+  :weight: 0.193806
+  :price: 71.77
+- :company: MetLife Inc.
+  :symbol: MET
+  :weight: 0.193778
+  :price: 45.93
+- :company: Crown Castle International Corp
+  :symbol: CCI
+  :weight: 0.19267
+  :price: 113.845
+- :company: Ford Motor Company
+  :symbol: F
+  :weight: 0.191509
+  :price: 9.555
+- :company: Express Scripts Holding Company
+  :symbol: ESRX
+  :weight: 0.189518
+  :price: 87.43
+- :company: Emerson Electric Co.
+  :symbol: EMR
+  :weight: 0.187473
+  :price: 74.87
+- :company: Electronic Arts Inc.
+  :symbol: EA
+  :weight: 0.187164
+  :price: 128.0
+- :company: Intercontinental Exchange Inc.
+  :symbol: ICE
+  :weight: 0.186588
+  :price: 74.04
+- :company: Norfolk Southern Corporation
+  :symbol: NSC
+  :weight: 0.183764
+  :price: 173.95
+- :company: Illinois Tool Works Inc.
+  :symbol: ITW
+  :weight: 0.183261
+  :price: 139.47
+- :company: Cigna Corporation
+  :symbol: CI
+  :weight: 0.180527
+  :price: 188.32
+- :company: Marsh & McLennan Companies Inc.
+  :symbol: MMC
+  :weight: 0.179264
+  :price: 83.99
+- :company: Zoetis Inc. Class A
+  :symbol: ZTS
+  :weight: 0.178979
+  :price: 91.445
+- :company: Humana Inc.
+  :symbol: HUM
+  :weight: 0.176605
+  :price: 324.53
+- :company: Exelon Corporation
+  :symbol: EXC
+  :weight: 0.176204
+  :price: 44.53
+- :company: Illumina Inc.
+  :symbol: ILMN
+  :weight: 0.174926
+  :price: 325.73
+- :company: Target Corporation
+  :symbol: TGT
+  :weight: 0.174847
+  :price: 82.99
+- :company: Halliburton Company
+  :symbol: HAL
+  :weight: 0.173377
+  :price: 39.975
+- :company: BB&T Corporation
+  :symbol: BBT
+  :weight: 0.172332
+  :price: 52.41
+- :company: Prudential Financial Inc.
+  :symbol: PRU
+  :weight: 0.170513
+  :price: 98.85
+- :company: Constellation Brands Inc. Class A
+  :symbol: STZ
+  :weight: 0.169333
+  :price: 203.95
+- :company: Anadarko Petroleum Corporation
+  :symbol: APC
+  :weight: 0.163739
+  :price: 62.07
+- :company: Vertex Pharmaceuticals Incorporated
+  :symbol: VRTX
+  :weight: 0.163139
+  :price: 176.08
+- :company: HP Inc.
+  :symbol: HPQ
+  :weight: 0.162621
+  :price: 24.545
+- :company: Marriott International Inc. Class A
+  :symbol: MAR
+  :weight: 0.162445
+  :price: 123.86
+- :company: Kraft Heinz Company
+  :symbol: KHC
+  :weight: 0.162349
+  :price: 61.015
+- :company: Kimberly-Clark Corporation
+  :symbol: KMB
+  :weight: 0.15974
+  :price: 119.57
+- :company: Baxter International Inc.
+  :symbol: BAX
+  :weight: 0.158944
+  :price: 72.05
+- :company: Ecolab Inc.
+  :symbol: ECL
+  :weight: 0.157697
+  :price: 147.28
+- :company: Analog Devices Inc.
+  :symbol: ADI
+  :weight: 0.154367
+  :price: 94.56
+- :company: LyondellBasell Industries NV
+  :symbol: LYB
+  :weight: 0.152331
+  :price: 113.06
+- :company: Fidelity National Information Services Inc.
+  :symbol: FIS
+  :weight: 0.152061
+  :price: 107.06
+- :company: Prologis Inc.
+  :symbol: PLD
+  :weight: 0.150688
+  :price: 67.465
+- :company: Progressive Corporation
+  :symbol: PGR
+  :weight: 0.149818
+  :price: 66.27
+- :company: State Street Corporation
+  :symbol: STT
+  :weight: 0.14941
+  :price: 84.95
+- :company: Public Storage
+  :symbol: PSA
+  :weight: 0.148796
+  :price: 223.575
+- :company: Air Products and Chemicals Inc.
+  :symbol: APD
+  :weight: 0.148351
+  :price: 166.6
+- :company: American Electric Power Company Inc.
+  :symbol: AEP
+  :weight: 0.148131
+  :price: 72.49
+- :company: Equinix Inc.
+  :symbol: EQIX
+  :weight: 0.146136
+  :price: 438.58
+- :company: Aflac Incorporated
+  :symbol: AFL
+  :weight: 0.145112
+  :price: 46.76
+- :company: eBay Inc.
+  :symbol: EBAY
+  :weight: 0.14493
+  :price: 33.985
+- :company: Sherwin-Williams Company
+  :symbol: SHW
+  :weight: 0.144574
+  :price: 443.5
+- :company: Travelers Companies Inc.
+  :symbol: TRV
+  :weight: 0.144462
+  :price: 130.4
+- :company: Aon plc
+  :symbol: AON
+  :weight: 0.144443
+  :price: 143.47
+- :company: Kinder Morgan Inc Class P
+  :symbol: KMI
+  :weight: 0.143767
+  :price: 17.96
+- :company: Sysco Corporation
+  :symbol: SYY
+  :weight: 0.142539
+  :price: 74.835
+- :company: Eaton Corp. Plc
+  :symbol: ETN
+  :weight: 0.141348
+  :price: 80.955
+- :company: Waste Management Inc.
+  :symbol: WM
+  :weight: 0.140254
+  :price: 91.34
+- :company: Delta Air Lines Inc.
+  :symbol: DAL
+  :weight: 0.139885
+  :price: 55.645
+- :company: Ross Stores Inc.
+  :symbol: ROST
+  :weight: 0.139779
+  :price: 91.87
+- :company: Allstate Corporation
+  :symbol: ALL
+  :weight: 0.139286
+  :price: 100.03
+- :company: Marathon Petroleum Corporation
+  :symbol: MPC
+  :weight: 0.139245
+  :price: 77.11
+- :company: Pioneer Natural Resources Company
+  :symbol: PXD
+  :weight: 0.139007
+  :price: 173.09
+- :company: Estee Lauder Companies Inc. Class A
+  :symbol: EL
+  :weight: 0.138351
+  :price: 136.01
+- :company: TE Connectivity Ltd.
+  :symbol: TEL
+  :weight: 0.135701
+  :price: 92.94
+- :company: Edwards Lifesciences Corporation
+  :symbol: EW
+  :weight: 0.134151
+  :price: 139.72
+- :company: Johnson Controls International plc
+  :symbol: JCI
+  :weight: 0.133609
+  :price: 38.245
+- :company: SunTrust Banks Inc.
+  :symbol: STI
+  :weight: 0.132923
+  :price: 73.715
+- :company: Sempra Energy
+  :symbol: SRE
+  :weight: 0.131857
+  :price: 116.87
+- :company: Fiserv Inc.
+  :symbol: FISV
+  :weight: 0.131308
+  :price: 79.45
+- :company: Twitter Inc.
+  :symbol: TWTR
+  :weight: 0.12721
+  :price: 32.735
+- :company: ONEOK Inc.
+  :symbol: OKE
+  :weight: 0.12469
+  :price: 67.505
+- :company: HCA Healthcare Inc
+  :symbol: HCA
+  :weight: 0.124636
+  :price: 131.555
+- :company: Autodesk Inc.
+  :symbol: ADSK
+  :weight: 0.12379
+  :price: 132.32
+- :company: Moody's Corporation
+  :symbol: MCO
+  :weight: 0.123531
+  :price: 171.5
+- :company: T. Rowe Price Group
+  :symbol: TROW
+  :weight: 0.122305
+  :price: 115.575
+- :company: Lam Research Corporation
+  :symbol: LRCX
+  :weight: 0.121559
+  :price: 169.95
+- :company: Roper Technologies Inc.
+  :symbol: ROP
+  :weight: 0.120588
+  :price: 297.87
+- :company: McKesson Corporation
+  :symbol: MCK
+  :weight: 0.119038
+  :price: 129.39
+- :company: Public Service Enterprise Group Inc
+  :symbol: PEG
+  :weight: 0.118758
+  :price: 53.8
+- :company: Weyerhaeuser Company
+  :symbol: WY
+  :weight: 0.118573
+  :price: 35.625
+- :company: Southwest Airlines Co.
+  :symbol: LUV
+  :weight: 0.117323
+  :price: 59.675
+- :company: Alexion Pharmaceuticals Inc.
+  :symbol: ALXN
+  :weight: 0.117262
+  :price: 116.0
+- :company: V.F. Corporation
+  :symbol: VFC
+  :weight: 0.115238
+  :price: 91.62
+- :company: Amphenol Corporation Class A
+  :symbol: APH
+  :weight: 0.114904
+  :price: 94.04
+- :company: General Mills Inc.
+  :symbol: GIS
+  :weight: 0.11487
+  :price: 47.195
+- :company: Regeneron Pharmaceuticals Inc.
+  :symbol: REGN
+  :weight: 0.114676
+  :price: 374.33
+- :company: PPG Industries Inc.
+  :symbol: PPG
+  :weight: 0.114349
+  :price: 108.4
+- :company: Archer-Daniels-Midland Company
+  :symbol: ADM
+  :weight: 0.11318
+  :price: 50.52
+- :company: Centene Corporation
+  :symbol: CNC
+  :weight: 0.110136
+  :price: 143.71
+- :company: Dollar General Corporation
+  :symbol: DG
+  :weight: 0.109298
+  :price: 106.36
+- :company: Yum! Brands Inc.
+  :symbol: YUM
+  :weight: 0.109229
+  :price: 83.77
+- :company: Align Technology Inc.
+  :symbol: ALGN
+  :weight: 0.107579
+  :price: 357.29
+- :company: Discover Financial Services
+  :symbol: DFS
+  :weight: 0.107528
+  :price: 77.94
+- :company: M&T Bank Corporation
+  :symbol: MTB
+  :weight: 0.106299
+  :price: 176.5
+- :company: Aptiv PLC
+  :symbol: APTV
+  :weight: 0.106253
+  :price: 92.74
+- :company: Consolidated Edison Inc.
+  :symbol: ED
+  :weight: 0.104101
+  :price: 81.16
+- :company: Red Hat Inc.
+  :symbol: RHT
+  :weight: 0.104054
+  :price: 140.11
+- :company: AvalonBay Communities Inc.
+  :symbol: AVB
+  :weight: 0.102302
+  :price: 183.21
+- :company: Synchrony Financial
+  :symbol: SYF
+  :weight: 0.101905
+  :price: 30.365
+- :company: Monster Beverage Corporation
+  :symbol: MNST
+  :weight: 0.101159
+  :price: 62.18
+- :company: Equity Residential
+  :symbol: EQR
+  :weight: 0.101099
+  :price: 67.825
+- :company: Fortive Corp.
+  :symbol: FTV
+  :weight: 0.100854
+  :price: 80.22
+- :company: Xcel Energy Inc.
+  :symbol: XEL
+  :weight: 0.100783
+  :price: 48.285
+- :company: Welltower Inc.
+  :symbol: WELL
+  :weight: 0.100617
+  :price: 66.71
+- :company: Kroger Co.
+  :symbol: KR
+  :weight: 0.100234
+  :price: 31.34
+- :company: Carnival Corporation
+  :symbol: CCL
+  :weight: 0.100003
+  :price: 60.5
+- :company: Western Digital Corporation
+  :symbol: WDC
+  :weight: 0.099853
+  :price: 64.62
+- :company: DXC Technology Co.
+  :symbol: DXC
+  :weight: 0.098798
+  :price: 87.335
+- :company: Digital Realty Trust Inc.
+  :symbol: DLR
+  :weight: 0.098615
+  :price: 124.11
+- :company: Devon Energy Corporation
+  :symbol: DVN
+  :weight: 0.098362
+  :price: 40.6
+- :company: O'Reilly Automotive Inc.
+  :symbol: ORLY
+  :weight: 0.098178
+  :price: 329.98
+- :company: Zimmer Biomet Holdings Inc.
+  :symbol: ZBH
+  :weight: 0.097606
+  :price: 123.85
+- :company: Williams Companies Inc.
+  :symbol: WMB
+  :weight: 0.097545
+  :price: 30.47
+- :company: Hewlett Packard Enterprise Co.
+  :symbol: HPE
+  :weight: 0.097453
+  :price: 16.665
+- :company: Freeport-McMoRan Inc.
+  :symbol: FCX
+  :weight: 0.097376
+  :price: 13.97
+- :company: Corning Inc
+  :symbol: GLW
+  :weight: 0.097246
+  :price: 33.02
+- :company: Ingersoll-Rand Plc
+  :symbol: IR
+  :weight: 0.096967
+  :price: 99.82
+- :company: Northern Trust Corporation
+  :symbol: NTRS
+  :weight: 0.095718
+  :price: 107.68
+- :company: Rockwell Collins Inc.
+  :symbol: COL
+  :weight: 0.095345
+  :price: 137.45
+- :company: Hilton Worldwide Holdings Inc
+  :symbol: HLT
+  :weight: 0.095244
+  :price: 77.2
+- :company: PG&E Corporation
+  :symbol: PCG
+  :weight: 0.095058
+  :price: 45.235
+- :company: Dr Pepper Snapple Group Inc.
+  :symbol: DPS
+  :weight: 0.094923
+  :price: 123.72
+- :company: PACCAR Inc
+  :symbol: PCAR
+  :weight: 0.094677
+  :price: 67.18
+- :company: International Paper Company
+  :symbol: IP
+  :weight: 0.094188
+  :price: 51.97
+- :company: Twenty-First Century Fox Inc. Class B
+  :symbol: FOX
+  :weight: 0.093977
+  :price: 44.81
+- :company: Paychex Inc.
+  :symbol: PAYX
+  :weight: 0.093582
+  :price: 72.31
+- :company: Microchip Technology Incorporated
+  :symbol: MCHP
+  :weight: 0.092205
+  :price: 83.01
+- :company: Cummins Inc.
+  :symbol: CMI
+  :weight: 0.09023
+  :price: 143.3
+- :company: Stanley Black & Decker Inc.
+  :symbol: SWK
+  :weight: 0.089885
+  :price: 141.36
+- :company: NetApp Inc.
+  :symbol: NTAP
+  :weight: 0.089842
+  :price: 81.14
+- :company: KeyCorp
+  :symbol: KEY
+  :weight: 0.089789
+  :price: 21.585
+- :company: Rockwell Automation Inc.
+  :symbol: ROK
+  :weight: 0.089695
+  :price: 173.6
+- :company: Parker-Hannifin Corporation
+  :symbol: PH
+  :weight: 0.089302
+  :price: 169.52
+- :company: Concho Resources Inc.
+  :symbol: CXO
+  :weight: 0.088841
+  :price: 135.025
+- :company: Tyson Foods Inc. Class A
+  :symbol: TSN
+  :weight: 0.088731
+  :price: 62.41
+- :company: Edison International
+  :symbol: EIX
+  :weight: 0.088728
+  :price: 69.865
+- :company: Ventas Inc.
+  :symbol: VTR
+  :weight: 0.088129
+  :price: 59.67
+- :company: Dollar Tree Inc.
+  :symbol: DLTR
+  :weight: 0.087679
+  :price: 95.595
+- :company: Willis Towers Watson Public Limited Company
+  :symbol: WLTW
+  :weight: 0.087401
+  :price: 148.84
+- :company: WEC Energy Group Inc
+  :symbol: WEC
+  :weight: 0.087341
+  :price: 68.29
+- :company: Regions Financial Corporation
+  :symbol: RF
+  :weight: 0.087236
+  :price: 19.49
+- :company: Ameriprise Financial Inc.
+  :symbol: AMP
+  :weight: 0.086884
+  :price: 139.49
+- :company: Nucor Corporation
+  :symbol: NUE
+  :weight: 0.085781
+  :price: 62.37
+- :company: PPL Corporation
+  :symbol: PPL
+  :weight: 0.085774
+  :price: 29.88
+- :company: Fifth Third Bancorp
+  :symbol: FITB
+  :weight: 0.085465
+  :price: 29.685
+- :company: Agilent Technologies Inc.
+  :symbol: A
+  :weight: 0.084862
+  :price: 64.66
+- :company: Newmont Mining Corporation
+  :symbol: NEM
+  :weight: 0.084707
+  :price: 32.065
+- :company: Citizens Financial Group Inc.
+  :symbol: CFG
+  :weight: 0.083814
+  :price: 40.7
+- :company: CBS Corporation Class B
+  :symbol: CBS
+  :weight: 0.083703
+  :price: 53.245
+- :company: Boston Properties Inc.
+  :symbol: BXP
+  :weight: 0.083653
+  :price: 132.12
+- :company: SBA Communications Corp. Class A
+  :symbol: SBAC
+  :weight: 0.082411
+  :price: 157.87
+- :company: IDEXX Laboratories Inc.
+  :symbol: IDXX
+  :weight: 0.082063
+  :price: 243.41
+- :company: DTE Energy Company
+  :symbol: DTE
+  :weight: 0.081813
+  :price: 113.59
+- :company: Motorola Solutions Inc.
+  :symbol: MSI
+  :weight: 0.081607
+  :price: 122.97
+- :company: IHS Markit Ltd.
+  :symbol: INFO
+  :weight: 0.081317
+  :price: 53.75
+- :company: FleetCor Technologies Inc.
+  :symbol: FLT
+  :weight: 0.081221
+  :price: 214.15
+- :company: Cerner Corporation
+  :symbol: CERN
+  :weight: 0.080897
+  :price: 65.285
+- :company: Mylan N.V.
+  :symbol: MYL
+  :weight: 0.080794
+  :price: 38.18
+- :company: Eversource Energy
+  :symbol: ES
+  :weight: 0.080113
+  :price: 63.235
+- :company: Best Buy Co. Inc.
+  :symbol: BBY
+  :weight: 0.079802
+  :price: 78.5
+- :company: Laboratory Corporation of America Holdings
+  :symbol: LH
+  :weight: 0.079658
+  :price: 182.18
+- :company: CenturyLink Inc.
+  :symbol: CTL
+  :weight: 0.079628
+  :price: 23.475
+- :company: Andeavor
+  :symbol: ANDV
+  :weight: 0.078577
+  :price: 144.895
+- :company: AutoZone Inc.
+  :symbol: AZO
+  :weight: 0.078454
+  :price: 764.885
+- :company: Hartford Financial Services Group Inc.
+  :symbol: HIG
+  :weight: 0.078304
+  :price: 51.97
+- :company: Royal Caribbean Cruises Ltd.
+  :symbol: RCL
+  :weight: 0.077078
+  :price: 115.69
+- :company: Skyworks Solutions Inc.
+  :symbol: SWKS
+  :weight: 0.076621
+  :price: 91.85
+- :company: Apache Corporation
+  :symbol: APA
+  :weight: 0.076151
+  :price: 41.98
+- :company: Marathon Oil Corporation
+  :symbol: MRO
+  :weight: 0.076013
+  :price: 19.815
+- :company: ABIOMED Inc.
+  :symbol: ABMD
+  :weight: 0.075467
+  :price: 358.91
+- :company: Global Payments Inc.
+  :symbol: GPN
+  :weight: 0.075334
+  :price: 118.64
+- :company: Omnicom Group Inc
+  :symbol: OMC
+  :weight: 0.075242
+  :price: 68.59
+- :company: Clorox Company
+  :symbol: CLX
+  :weight: 0.074867
+  :price: 147.56
+- :company: Hess Corporation
+  :symbol: HES
+  :weight: 0.074783
+  :price: 62.34
+- :company: Kellogg Company
+  :symbol: K
+  :weight: 0.074526
+  :price: 73.61
+- :company: Harris Corporation
+  :symbol: HRS
+  :weight: 0.074443
+  :price: 164.67
+- :company: Noble Energy Inc.
+  :symbol: NBL
+  :weight: 0.073373
+  :price: 28.775
+- :company: Textron Inc.
+  :symbol: TXT
+  :weight: 0.072983
+  :price: 66.63
+- :company: Vulcan Materials Company
+  :symbol: VMC
+  :weight: 0.07285
+  :price: 110.31
+- :company: TransDigm Group Incorporated
+  :symbol: TDG
+  :weight: 0.071936
+  :price: 353.5
+- :company: Xilinx Inc.
+  :symbol: XLNX
+  :weight: 0.071674
+  :price: 71.01
+- :company: National Oilwell Varco Inc.
+  :symbol: NOV
+  :weight: 0.071582
+  :price: 43.83
+- :company: Verisk Analytics Inc
+  :symbol: VRSK
+  :weight: 0.071257
+  :price: 117.405
+- :company: AMETEK Inc.
+  :symbol: AME
+  :weight: 0.071215
+  :price: 76.27
+- :company: United Continental Holdings Inc.
+  :symbol: UAL
+  :weight: 0.071001
+  :price: 81.98
+- :company: Huntington Bancshares Incorporated
+  :symbol: HBAN
+  :weight: 0.070876
+  :price: 16.1
+- :company: E*TRADE Financial Corporation
+  :symbol: ETFC
+  :weight: 0.070816
+  :price: 61.165
+- :company: Seagate Technology PLC
+  :symbol: STX
+  :weight: 0.070575
+  :price: 54.23
+- :company: FirstEnergy Corp.
+  :symbol: FE
+  :weight: 0.07037
+  :price: 37.305
+- :company: IQVIA Holdings Inc
+  :symbol: IQV
+  :weight: 0.069629
+  :price: 120.26
+- :company: Cintas Corporation
+  :symbol: CTAS
+  :weight: 0.069573
+  :price: 212.87
+- :company: American Airlines Group Inc.
+  :symbol: AAL
+  :weight: 0.069047
+  :price: 37.785
+- :company: Comerica Incorporated
+  :symbol: CMA
+  :weight: 0.068967
+  :price: 99.24
+- :company: W.W. Grainger Inc.
+  :symbol: GWW
+  :weight: 0.068802
+  :price: 357.675
+- :company: KLA-Tencor Corporation
+  :symbol: KLAC
+  :weight: 0.068432
+  :price: 112.45
+- :company: Cardinal Health Inc.
+  :symbol: CAH
+  :weight: 0.068172
+  :price: 51.895
+- :company: Republic Services Inc.
+  :symbol: RSG
+  :weight: 0.068106
+  :price: 74.5
+- :company: Essex Property Trust Inc.
+  :symbol: ESS
+  :weight: 0.067492
+  :price: 243.34
+- :company: Realty Income Corporation
+  :symbol: O
+  :weight: 0.066984
+  :price: 58.84
+- :company: Waters Corporation
+  :symbol: WAT
+  :weight: 0.066456
+  :price: 187.52
+- :company: Host Hotels & Resorts Inc.
+  :symbol: HST
+  :weight: 0.066267
+  :price: 20.905
+- :company: SVB Financial Group
+  :symbol: SIVB
+  :weight: 0.066147
+  :price: 320.66
+- :company: American Water Works Company Inc.
+  :symbol: AWK
+  :weight: 0.065433
+  :price: 89.49
+- :company: L3 Technologies Inc
+  :symbol: LLL
+  :weight: 0.065188
+  :price: 210.33
+- :company: Quest Diagnostics Incorporated
+  :symbol: DGX
+  :weight: 0.06496
+  :price: 111.43
+- :company: Equifax Inc.
+  :symbol: EFX
+  :weight: 0.064899
+  :price: 133.09
+- :company: MSCI Inc. Class A
+  :symbol: MSCI
+  :weight: 0.064862
+  :price: 173.27
+- :company: Evergy Inc.
+  :symbol: EVRG
+  :weight: 0.064619
+  :price: 57.875
+- :company: Ameren Corporation
+  :symbol: AEE
+  :weight: 0.064302
+  :price: 64.76
+- :company: ResMed Inc.
+  :symbol: RMD
+  :weight: 0.064295
+  :price: 106.8
+- :company: Mettler-Toledo International Inc.
+  :symbol: MTD
+  :weight: 0.064055
+  :price: 564.74
+- :company: Expedia Group Inc.
+  :symbol: EXPE
+  :weight: 0.063807
+  :price: 130.99
+- :company: Entergy Corporation
+  :symbol: ETR
+  :weight: 0.063741
+  :price: 85.29
+- :company: ANSYS Inc.
+  :symbol: ANSS
+  :weight: 0.06311
+  :price: 172.18
+- :company: Eastman Chemical Company
+  :symbol: EMN
+  :weight: 0.062933
+  :price: 97.64
+- :company: XL Group Ltd
+  :symbol: XL
+  :weight: 0.062816
+  :price: 56.94
+- :company: WestRock Co.
+  :symbol: WRK
+  :weight: 0.062558
+  :price: 55.31
+- :company: CBRE Group Inc. Class A
+  :symbol: CBRE
+  :weight: 0.062103
+  :price: 47.53
+- :company: Lennar Corporation Class A
+  :symbol: LEN
+  :weight: 0.061762
+  :price: 50.54
+- :company: MGM Resorts International
+  :symbol: MGM
+  :weight: 0.061695
+  :price: 28.545
+- :company: EQT Corporation
+  :symbol: EQT
+  :weight: 0.061516
+  :price: 49.515
+- :company: AmerisourceBergen Corporation
+  :symbol: ABC
+  :weight: 0.06137
+  :price: 87.71
+- :company: Conagra Brands Inc.
+  :symbol: CAG
+  :weight: 0.061169
+  :price: 37.485
+- :company: Fastenal Company
+  :symbol: FAST
+  :weight: 0.060827
+  :price: 59.515
+- :company: Principal Financial Group Inc.
+  :symbol: PFG
+  :weight: 0.060454
+  :price: 55.715
+- :company: Total System Services Inc.
+  :symbol: TSS
+  :weight: 0.060388
+  :price: 94.91
+- :company: D.R. Horton Inc.
+  :symbol: DHI
+  :weight: 0.060274
+  :price: 44.375
+- :company: Baker Hughes a GE Company Class A
+  :symbol: BHGE
+  :weight: 0.060229
+  :price: 31.02
+- :company: Martin Marietta Materials Inc.
+  :symbol: MLM
+  :weight: 0.060137
+  :price: 203.01
+- :company: McCormick & Company Incorporated
+  :symbol: MKC
+  :weight: 0.060103
+  :price: 126.4
+- :company: Wynn Resorts Limited
+  :symbol: WYNN
+  :weight: 0.059968
+  :price: 142.36
+- :company: Ulta Beauty Inc
+  :symbol: ULTA
+  :weight: 0.059863
+  :price: 234.97
+- :company: TechnipFMC Plc
+  :symbol: FTI
+  :weight: 0.059296
+  :price: 28.03
+- :company: Lincoln National Corporation
+  :symbol: LNC
+  :weight: 0.058701
+  :price: 65.22
+- :company: Tapestry Inc.
+  :symbol: TPR
+  :weight: 0.05845
+  :price: 51.405
+- :company: Genuine Parts Company
+  :symbol: GPC
+  :weight: 0.058222
+  :price: 98.86
+- :company: Citrix Systems Inc.
+  :symbol: CTXS
+  :weight: 0.058191
+  :price: 110.86
+- :company: Broadridge Financial Solutions Inc.
+  :symbol: BR
+  :weight: 0.05816
+  :price: 133.26
+- :company: Mohawk Industries Inc.
+  :symbol: MHK
+  :weight: 0.058133
+  :price: 190.03
+- :company: Take-Two Interactive Software Inc.
+  :symbol: TTWO
+  :weight: 0.057937
+  :price: 124.275
+- :company: Darden Restaurants Inc.
+  :symbol: DRI
+  :weight: 0.057716
+  :price: 113.84
+- :company: Tiffany & Co.
+  :symbol: TIF
+  :weight: 0.057492
+  :price: 128.545
+- :company: CMS Energy Corporation
+  :symbol: CMS
+  :weight: 0.057148
+  :price: 49.89
+- :company: VeriSign Inc.
+  :symbol: VRSN
+  :weight: 0.057094
+  :price: 150.71
+- :company: Hershey Company
+  :symbol: HSY
+  :weight: 0.056832
+  :price: 101.495
+- :company: CarMax Inc.
+  :symbol: KMX
+  :weight: 0.056739
+  :price: 73.61
+- :company: Church & Dwight Co. Inc.
+  :symbol: CHD
+  :weight: 0.056436
+  :price: 57.15
+- :company: Alexandria Real Estate Equities Inc.
+  :symbol: ARE
+  :weight: 0.056425
+  :price: 129.75
+- :company: Expeditors International of Washington Inc.
+  :symbol: EXPD
+  :weight: 0.056265
+  :price: 73.99
+- :company: GGP Inc.
+  :symbol: GGP
+  :weight: 0.056219
+  :price: 21.415
+- :company: Brown-Forman Corporation Class B
+  :symbol: BF.B
+  :weight: 0.055653
+  :price: 53.56
+- :company: Loews Corporation
+  :symbol: L
+  :weight: 0.054859
+  :price: 50.14
+- :company: Synopsys Inc.
+  :symbol: SNPS
+  :weight: 0.054617
+  :price: 93.39
+- :company: Extra Space Storage Inc.
+  :symbol: EXR
+  :weight: 0.054529
+  :price: 95.16
+- :company: Advanced Micro Devices Inc.
+  :symbol: AMD
+  :weight: 0.054506
+  :price: 19.755
+- :company: Vornado Realty Trust
+  :symbol: VNO
+  :weight: 0.05438
+  :price: 76.87
+- :company: Symantec Corporation
+  :symbol: SYMC
+  :weight: 0.054103
+  :price: 19.455
+- :company: Akamai Technologies Inc.
+  :symbol: AKAM
+  :weight: 0.053916
+  :price: 71.39
+- :company: Kohl's Corporation
+  :symbol: KSS
+  :weight: 0.053789
+  :price: 76.42
+- :company: Molson Coors Brewing Company Class B
+  :symbol: TAP
+  :weight: 0.053753
+  :price: 68.55
+- :company: Newell Brands Inc
+  :symbol: NWL
+  :weight: 0.053343
+  :price: 21.515
+- :company: United Rentals Inc.
+  :symbol: URI
+  :weight: 0.053148
+  :price: 150.48
+- :company: J.M. Smucker Company
+  :symbol: SJM
+  :weight: 0.053144
+  :price: 114.58
+- :company: Ball Corporation
+  :symbol: BLL
+  :weight: 0.053008
+  :price: 40.635
+- :company: Cadence Design Systems Inc.
+  :symbol: CDNS
+  :weight: 0.05287
+  :price: 45.18
+- :company: Gartner Inc.
+  :symbol: IT
+  :weight: 0.05264
+  :price: 143.1
+- :company: HCP Inc.
+  :symbol: HCP
+  :weight: 0.052373
+  :price: 27.205
+- :company: CenterPoint Energy Inc.
+  :symbol: CNP
+  :weight: 0.051581
+  :price: 28.285
+- :company: Arthur J. Gallagher & Co.
+  :symbol: AJG
+  :weight: 0.051486
+  :price: 72.22
+- :company: FMC Corporation
+  :symbol: FMC
+  :weight: 0.051271
+  :price: 84.38
+- :company: Xylem Inc.
+  :symbol: XYL
+  :weight: 0.051173
+  :price: 75.41
+- :company: Masco Corporation
+  :symbol: MAS
+  :weight: 0.051068
+  :price: 38.745
+- :company: HollyFrontier Corporation
+  :symbol: HFC
+  :weight: 0.050921
+  :price: 68.63
+- :company: PVH Corp.
+  :symbol: PVH
+  :weight: 0.0506
+  :price: 149.2
+- :company: C.H. Robinson Worldwide Inc.
+  :symbol: CHRW
+  :weight: 0.050556
+  :price: 97.13
+- :company: Cboe Global Markets Inc
+  :symbol: CBOE
+  :weight: 0.050467
+  :price: 95.75
+- :company: Raymond James Financial Inc.
+  :symbol: RJF
+  :weight: 0.050445
+  :price: 91.39
+- :company: Macy's Inc
+  :symbol: M
+  :weight: 0.050398
+  :price: 36.035
+- :company: Mid-America Apartment Communities Inc.
+  :symbol: MAA
+  :weight: 0.04998
+  :price: 103.09
+- :company: Cooper Companies Inc.
+  :symbol: COO
+  :weight: 0.049925
+  :price: 257.76
+- :company: Incyte Corporation
+  :symbol: INCY
+  :weight: 0.04958
+  :price: 68.81
+- :company: Henry Schein Inc.
+  :symbol: HSIC
+  :weight: 0.049413
+  :price: 80.34
+- :company: Alliance Data Systems Corporation
+  :symbol: ADS
+  :weight: 0.048685
+  :price: 238.22
+- :company: Dover Corporation
+  :symbol: DOV
+  :weight: 0.048662
+  :price: 83.94
+- :company: Kansas City Southern
+  :symbol: KSU
+  :weight: 0.048332
+  :price: 115.37
+- :company: CA Inc.
+  :symbol: CA
+  :weight: 0.047795
+  :price: 43.65
+- :company: Hologic Inc.
+  :symbol: HOLX
+  :weight: 0.047427
+  :price: 38.335
+- :company: Invesco Ltd.
+  :symbol: IVZ
+  :weight: 0.046758
+  :price: 24.485
+- :company: Cabot Oil & Gas Corporation
+  :symbol: COG
+  :weight: 0.046341
+  :price: 23.605
+- :company: Chipotle Mexican Grill Inc.
+  :symbol: CMG
+  :weight: 0.046105
+  :price: 510.59
+- :company: Zions Bancorporation
+  :symbol: ZION
+  :weight: 0.046071
+  :price: 53.725
+- :company: Varian Medical Systems Inc.
+  :symbol: VAR
+  :weight: 0.046069
+  :price: 111.17
+- :company: Nasdaq Inc.
+  :symbol: NDAQ
+  :weight: 0.045895
+  :price: 93.06
+- :company: F5 Networks Inc.
+  :symbol: FFIV
+  :weight: 0.045861
+  :price: 180.65
+- :company: J.B. Hunt Transport Services Inc.
+  :symbol: JBHT
+  :weight: 0.045625
+  :price: 122.33
+- :company: Viacom Inc. Class B
+  :symbol: VIAB
+  :weight: 0.045194
+  :price: 30.725
+- :company: Packaging Corporation of America
+  :symbol: PKG
+  :weight: 0.04502
+  :price: 111.62
+- :company: Hasbro Inc.
+  :symbol: HAS
+  :weight: 0.044937
+  :price: 98.52
+- :company: Franklin Resources Inc.
+  :symbol: BEN
+  :weight: 0.044913
+  :price: 32.715
+- :company: CF Industries Holdings Inc.
+  :symbol: CF
+  :weight: 0.044834
+  :price: 47.52
+- :company: Albemarle Corporation
+  :symbol: ALB
+  :weight: 0.044408
+  :price: 95.41
+- :company: Duke Realty Corporation
+  :symbol: DRE
+  :weight: 0.043936
+  :price: 28.94
+- :company: Nielsen Holdings Plc
+  :symbol: NLSN
+  :weight: 0.043932
+  :price: 26.16
+- :company: Qorvo Inc.
+  :symbol: QRVO
+  :weight: 0.043734
+  :price: 81.44
+- :company: Hormel Foods Corporation
+  :symbol: HRL
+  :weight: 0.043625
+  :price: 38.63
+- :company: UDR Inc.
+  :symbol: UDR
+  :weight: 0.043589
+  :price: 39.825
+- :company: Michael Kors Holdings Ltd
+  :symbol: KORS
+  :weight: 0.043537
+  :price: 72.93
+- :company: DENTSPLY SIRONA Inc.
+  :symbol: XRAY
+  :weight: 0.043413
+  :price: 38.66
+- :company: Advance Auto Parts Inc.
+  :symbol: AAP
+  :weight: 0.043379
+  :price: 159.66
+- :company: Cincinnati Financial Corporation
+  :symbol: CINF
+  :weight: 0.043073
+  :price: 75.73
+- :company: LKQ Corporation
+  :symbol: LKQ
+  :weight: 0.042708
+  :price: 33.155
+- :company: Universal Health Services Inc. Class B
+  :symbol: UHS
+  :weight: 0.042671
+  :price: 127.84
+- :company: Alliant Energy Corp
+  :symbol: LNT
+  :weight: 0.042532
+  :price: 43.58
+- :company: DaVita Inc.
+  :symbol: DVA
+  :weight: 0.042491
+  :price: 72.49
+- :company: Norwegian Cruise Line Holdings Ltd.
+  :symbol: NCLH
+  :weight: 0.042424
+  :price: 52.5
+- :company: Huntington Ingalls Industries Inc.
+  :symbol: HII
+  :weight: 0.042189
+  :price: 247.22
+- :company: Mosaic Company
+  :symbol: MOS
+  :weight: 0.042183
+  :price: 29.635
+- :company: Iron Mountain Inc.
+  :symbol: IRM
+  :weight: 0.04211
+  :price: 36.47
+- :company: Cimarex Energy Co.
+  :symbol: XEC
+  :weight: 0.041776
+  :price: 82.26
+- :company: Perrigo Co. Plc
+  :symbol: PRGO
+  :weight: 0.041607
+  :price: 72.97
+- :company: International Flavors & Fragrances Inc.
+  :symbol: IFF
+  :weight: 0.041596
+  :price: 132.15
+- :company: Tractor Supply Company
+  :symbol: TSCO
+  :weight: 0.041272
+  :price: 80.51
+- :company: NRG Energy Inc.
+  :symbol: NRG
+  :weight: 0.04061
+  :price: 33.945
+- :company: Everest Re Group Ltd.
+  :symbol: RE
+  :weight: 0.040595
+  :price: 218.29
+- :company: Juniper Networks Inc.
+  :symbol: JNPR
+  :weight: 0.040491
+  :price: 27.74
+- :company: Whirlpool Corporation
+  :symbol: WHR
+  :weight: 0.040469
+  :price: 127.23
+- :company: Western Union Company
+  :symbol: WU
+  :weight: 0.040439
+  :price: 18.915
+- :company: Interpublic Group of Companies Inc.
+  :symbol: IPG
+  :weight: 0.040306
+  :price: 22.37
+- :company: Federal Realty Investment Trust
+  :symbol: FRT
+  :weight: 0.040073
+  :price: 129.37
+- :company: Snap-on Incorporated
+  :symbol: SNA
+  :weight: 0.039885
+  :price: 175.35
+- :company: L Brands Inc.
+  :symbol: LB
+  :weight: 0.039712
+  :price: 32.53
+- :company: SL Green Realty Corp.
+  :symbol: SLG
+  :weight: 0.039332
+  :price: 105.89
+- :company: Pinnacle West Capital Corporation
+  :symbol: PNW
+  :weight: 0.039123
+  :price: 82.28
+- :company: Regency Centers Corporation
+  :symbol: REG
+  :weight: 0.039118
+  :price: 65.225
+- :company: AES Corporation
+  :symbol: AES
+  :weight: 0.03876
+  :price: 13.935
+- :company: Discovery Inc. Class C
+  :symbol: DISCK
+  :weight: 0.03866
+  :price: 24.92
+- :company: Torchmark Corporation
+  :symbol: TMK
+  :weight: 0.038634
+  :price: 88.18
+- :company: Avery Dennison Corporation
+  :symbol: AVY
+  :weight: 0.038034
+  :price: 106.87
+- :company: NiSource Inc
+  :symbol: NI
+  :weight: 0.03787
+  :price: 27.6
+- :company: BorgWarner Inc.
+  :symbol: BWA
+  :weight: 0.037445
+  :price: 45.28
+- :company: Affiliated Managers Group Inc.
+  :symbol: AMG
+  :weight: 0.036924
+  :price: 146.8
+- :company: A. O. Smith Corporation
+  :symbol: AOS
+  :weight: 0.036773
+  :price: 58.35
+- :company: Unum Group
+  :symbol: UNM
+  :weight: 0.036351
+  :price: 36.03
+- :company: Robert Half International Inc.
+  :symbol: RHI
+  :weight: 0.035863
+  :price: 76.95
+- :company: Hanesbrands Inc.
+  :symbol: HBI
+  :weight: 0.035411
+  :price: 18.405
+- :company: IPG Photonics Corporation
+  :symbol: IPGP
+  :weight: 0.035179
+  :price: 162.01
+- :company: PerkinElmer Inc.
+  :symbol: PKI
+  :weight: 0.034573
+  :price: 85.36
+- :company: Fortune Brands Home & Security Inc.
+  :symbol: FBHS
+  :weight: 0.034572
+  :price: 54.92
+- :company: Campbell Soup Company
+  :symbol: CPB
+  :weight: 0.033794
+  :price: 42.07
+- :company: Nektar Therapeutics
+  :symbol: NKTR
+  :weight: 0.033274
+  :price: 60.04
+- :company: PulteGroup Inc.
+  :symbol: PHM
+  :weight: 0.033086
+  :price: 28.085
+- :company: Jacobs Engineering Group Inc.
+  :symbol: JEC
+  :weight: 0.032836
+  :price: 71.87
+- :company: DISH Network Corporation Class A
+  :symbol: DISH
+  :weight: 0.032566
+  :price: 35.14
+- :company: Gap Inc.
+  :symbol: GPS
+  :weight: 0.031962
+  :price: 31.285
+- :company: Harley-Davidson Inc.
+  :symbol: HOG
+  :weight: 0.031721
+  :price: 42.26
+- :company: Alaska Air Group Inc.
+  :symbol: ALK
+  :weight: 0.031532
+  :price: 64.99
+- :company: Kimco Realty Corporation
+  :symbol: KIM
+  :weight: 0.031462
+  :price: 16.985
+- :company: Allegion PLC
+  :symbol: ALLE
+  :weight: 0.031349
+  :price: 86.695
+- :company: Ralph Lauren Corporation Class A
+  :symbol: RL
+  :weight: 0.031116
+  :price: 135.44
+- :company: Arconic Inc.
+  :symbol: ARNC
+  :weight: 0.030811
+  :price: 20.885
+- :company: Helmerich & Payne Inc.
+  :symbol: HP
+  :weight: 0.030725
+  :price: 62.5
+- :company: Sealed Air Corporation
+  :symbol: SEE
+  :weight: 0.03068
+  :price: 38.93
+- :company: Garmin Ltd.
+  :symbol: GRMN
+  :weight: 0.030244
+  :price: 65.32
+- :company: FLIR Systems Inc.
+  :symbol: FLIR
+  :weight: 0.030141
+  :price: 60.185
+- :company: Jefferies Financial Group Inc.
+  :symbol: JEF
+  :weight: 0.03006
+  :price: 23.455
+- :company: Pentair plc
+  :symbol: PNR
+  :weight: 0.029843
+  :price: 42.8
+- :company: Fluor Corporation
+  :symbol: FLR
+  :weight: 0.029392
+  :price: 56.83
+- :company: Foot Locker Inc.
+  :symbol: FL
+  :weight: 0.028918
+  :price: 50.7
+- :company: Coty Inc. Class A
+  :symbol: COTY
+  :weight: 0.028191
+  :price: 12.225
+- :company: Apartment Investment and Management Company Class A
+  :symbol: AIV
+  :weight: 0.027897
+  :price: 43.88
+- :company: TripAdvisor Inc.
+  :symbol: TRIP
+  :weight: 0.027298
+  :price: 53.56
+- :company: People's United Financial Inc.
+  :symbol: PBCT
+  :weight: 0.026877
+  :price: 18.725
+- :company: Macerich Company
+  :symbol: MAC
+  :weight: 0.026606
+  :price: 57.82
+- :company: Nordstrom Inc.
+  :symbol: JWN
+  :weight: 0.026054
+  :price: 59.22
+- :company: Goodyear Tire & Rubber Company
+  :symbol: GT
+  :weight: 0.025575
+  :price: 24.005
+- :company: Leggett & Platt Incorporated
+  :symbol: LEG
+  :weight: 0.025429
+  :price: 44.6
+- :company: Newfield Exploration Company
+  :symbol: NFX
+  :weight: 0.02538
+  :price: 26.38
+- :company: Assurant Inc.
+  :symbol: AIZ
+  :weight: 0.025057
+  :price: 105.23
+- :company: News Corporation Class A
+  :symbol: NWSA
+  :weight: 0.024955
+  :price: 13.905
+- :company: Mattel Inc.
+  :symbol: MAT
+  :weight: 0.024383
+  :price: 15.305
+- :company: SCANA Corporation
+  :symbol: SCG
+  :weight: 0.023258
+  :price: 38.5
+- :company: Stericycle Inc.
+  :symbol: SRCL
+  :weight: 0.023208
+  :price: 61.42
+- :company: Envision Healthcare Corp.
+  :symbol: EVHC
+  :weight: 0.023161
+  :price: 44.965
+- :company: Flowserve Corporation
+  :symbol: FLS
+  :weight: 0.022044
+  :price: 51.37
+- :company: Xerox Corporation
+  :symbol: XRX
+  :weight: 0.021965
+  :price: 26.94
+- :company: Quanta Services Inc.
+  :symbol: PWR
+  :weight: 0.021318
+  :price: 34.135
+- :company: Brighthouse Financial Inc.
+  :symbol: BHF
+  :weight: 0.02088
+  :price: 41.48
+- :company: H&R Block Inc.
+  :symbol: HRB
+  :weight: 0.020195
+  :price: 26.425
+- :company: Discovery Inc. Class A
+  :symbol: DISCA
+  :weight: 0.019278
+  :price: 26.95
+- :company: Under Armour Inc. Class A
+  :symbol: UAA
+  :weight: 0.017984
+  :price: 20.485
+- :company: Under Armour Inc. Class C
+  :symbol: UA
+  :weight: 0.016888
+  :price: 18.925
+- :company: News Corporation Class B
+  :symbol: NWS
+  :weight: 0.007378
+  :price: 14.425
