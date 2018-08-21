@@ -1,0 +1,24 @@
+.py-5.text-center
+  h1 Listing portfolios
+
+.row
+  .col-md-8
+    table.table.table-striped.table-sm
+      thead
+        tr
+          th Name
+          th
+          th
+          th
+
+      tbody
+        - @portfolios.each do |portfolio|
+          tr
+            td = portfolio.name
+            td = link_to 'Show', portfolio
+            td = link_to 'Edit', edit_portfolio_path(portfolio)
+            td = link_to 'Destroy', portfolio, data: { confirm: 'Are you sure?' }, method: :delete
+.col-md-8
+  .row
+    br
+    = link_to 'New Portfolio', new_portfolio_path, role: 'button', class: 'btn btn-primary'
