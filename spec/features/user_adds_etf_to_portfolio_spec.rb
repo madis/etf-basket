@@ -8,8 +8,10 @@ RSpec.feature 'User adds ETF to their portfolio' do
 
     visit edit_portfolio_path(portfolio)
     select 'First'
+    select 'Second'
     click_button 'Update'
     expect(page).to have_content 'Portfolio was successfully updated'
     expect(page).to have_content 'FST'
+    expect(page).to have_content 'Second'
   end
 end
