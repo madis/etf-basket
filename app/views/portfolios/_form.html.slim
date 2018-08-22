@@ -12,6 +12,6 @@
       = f.text_field :name, class: 'form-control'
     .field.mb-3
       = f.label :etf
-      = f.collection_select :etf_ids, Etf.all, :id, :name, {multiple: true}, {class: 'custom-select'}
+      = f.collection_select :etf_ids, Etf.all, :id, :name, {}, {class: 'custom-select', multiple: true}
     hr.mb-4
     .actions = f.submit submit_label, role: 'button', class: 'btn btn-primary'
