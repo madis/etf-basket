@@ -1,0 +1,46 @@
+---
+- :company: Cameco Corp
+  :symbol: CCO:CAQ
+  :weight: 18.72%
+- :company: Nexgen Energy Ltd
+  :symbol: NXE:CAQ
+  :weight: 7.35%
+- :company: Uranium Participation Corp
+  :symbol: U:CAQ
+  :weight: 6.76%
+- :company: Hyundai Engineering & Construction Co Ltd
+  :symbol: 000720:KSC
+  :weight: 5.13%
+- :company: Mitsubishi Heavy Industries Ltd
+  :symbol: 7011:TYO
+  :weight: 4.74%
+- :company: Samsung C&T Corp
+  :symbol: 028260:KSC
+  :weight: 4.62%
+- :company: Macquarie Group Ltd
+  :symbol: MQG:AUX
+  :weight: 4.58%
+- :company: Sumitomo Corp
+  :symbol: 8053:TYO
+  :weight: 4.53%
+- :company: Itochu Corp
+  :symbol: 8001:TYO
+  :weight: 4.46%
+- :company: Daewoo Engineering & Construction Co Ltd
+  :symbol: 047040:KSC
+  :weight: 4.46%
+- :company: BHP Billiton PLC
+  :symbol: BLT:LSE
+  :weight: 4.42%
+- :company: GS Engineering & Construction Corp
+  :symbol: 006360:KSC
+  :weight: 4.37%
+- :company: Rio Tinto PLC
+  :symbol: RIO:LSE
+  :weight: 4.05%
+- :company: Barrick Gold Corp
+  :symbol: ABX
+  :weight: 3.60%
+- :company: Denison Mines Corp
+  :symbol: DML:CAQ
+  :weight: 2.89%
