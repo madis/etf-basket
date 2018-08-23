@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_21_052707) do
+ActiveRecord::Schema.define(version: 2018_08_23_055127) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,11 +34,6 @@ ActiveRecord::Schema.define(version: 2018_08_21_052707) do
     t.index ["symbol"], name: "index_etfs_on_symbol", unique: true
   end
 
-  create_table "etfs_portfolios", id: false, force: :cascade do |t|
-    t.bigint "etf_id", null: false
-    t.bigint "portfolio_id", null: false
-  end
-
   create_table "portfolios", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
@@ -52,6 +47,12 @@ ActiveRecord::Schema.define(version: 2018_08_21_052707) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["etf_constituent_id"], name: "index_prices_on_etf_constituent_id"
+  end
+
+  create_table "trackings", force: :cascade do |t|
+    t.bigint "etf_id", null: false
+    t.bigint "portfolio_id", null: false
+    t.index ["portfolio_id", "etf_id"], name: "index_trackings_on_portfolio_id_and_etf_id", unique: true
   end
 
   add_foreign_key "prices", "etf_constituents"

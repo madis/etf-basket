@@ -11,8 +11,18 @@ FactoryBot.define do
 
     factory :etf_with_constituents do |instance|
       after(:create) do |etf, evaluator|
-        # create_list(:etf_constituent, 1, etf: etf)
         create(:etf_constituent, etf: etf)
+      end
+    end
+
+    factory :three_part_etf do |instance|
+      after(:create) do |etf, evaluator|
+        [
+          {name: 'First 25', symbol: 'FST', weight: 0.25},
+          {name: 'Second 50', symbol: 'SND', weight: 0.50},
+          {name: 'Third 25', symbol: 'TRD', weight: 0.25}
+        ].map { |c| create(:etf_constituent, {etf: etf}.merge(c)) }
+          .each { |c| c.prices.create(amount: 10, currency: 'USD') }
       end
     end
   end
