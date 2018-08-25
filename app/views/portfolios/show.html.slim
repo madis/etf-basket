@@ -19,7 +19,7 @@ p#notice = notice
           tr
             td = tracking.etf.symbol
             td = tracking.etf.name
-            td = link_to 'Buy', edit_tracking_path(tracking)
+            td = link_to 'Trade', edit_tracking_path(tracking)
             td = link_to 'Destroy', @portfolio, data: { confirm: 'Are you sure?' }, method: :delete
 .col-md-8
   .row

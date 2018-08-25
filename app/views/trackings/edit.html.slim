@@ -14,18 +14,21 @@ p#notice = notice
           th Weight
           th Owned (count)
           th Shares (%)
+          th Cost
           th Value
           th Actions
 
       tbody
         - @etf.constituents.each do |constituent|
+          - summarizer = TradesSummarizer.new(constituent, @tracking)
           tr
             td = constituent.name
             td = constituent.symbol
             td = constituent.weight
-            td = constituent.owned_count
-            td = constituent.owned_weight
-            td = constituent.owned_value
+            td = summarizer.owned_count
+            td = summarizer.owned_weight
+            td = summarizer.cost
+            td = summarizer.value
             td
               div = link_to 'Buy', edit_tracking_path(@tracking)
               div = link_to 'Sell', edit_tracking_path(@tracking)

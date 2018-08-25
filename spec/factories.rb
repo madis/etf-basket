@@ -33,4 +33,19 @@ FactoryBot.define do
     symbol { current_symbol }
     etf
   end
+
+  factory :trade do
+    etf_constituent
+
+    trait(:buy) { type { :buy } }
+    trait(:sell) { type { :sell } }
+  end
+
+  factory :tracking do
+    etf
+    portfolio
+  end
+
+  factory :price do
+  end
 end
