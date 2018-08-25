@@ -31,13 +31,17 @@ class Data < Thor
 
   private
 
-  def parse_weight_string(weight_string)
-    if weight_string.end_with?('%')
-      Float(weight_string[0..-2]) / 100
-    elsif Float(weight_string) > 1
-      Float(weight) / 100
+  def parse_weight_string(raw_weight)
+    if raw_weight.is_a?(Numeric)
+      raw_weight
+    elsif raw_weight.is_a?(String)
+      if raw_weight.end_with?('%')
+        Float(raw_weight[0..-2]) / 100
+      else
+        Float(raw_weight)
+      end
     else
-      Float(weight)
+      raise "Don't know how to parse #{raw_weight} of #{raw_weight.class}"
     end
   end
 end
