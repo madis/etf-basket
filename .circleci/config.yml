@@ -10,7 +10,7 @@ jobs:
            PGUSER: ubuntu
            RAILS_ENV: test
            RACK_ENV: test
-       - image: circleci/postgres:10.5
+       - image: circleci/postgres:10.5-alpine-ram
          environment:
            POSTGRES_USER: ubuntu
            POSTGRES_DB: cp-dashboard_test
@@ -39,6 +39,19 @@ jobs:
           name: install ruby dependencies
           command: |
             bundle install --jobs=4 --retry=3 --path vendor/bundle
+
+      - run:
+          name: install postgres client (for structure.sql)
+          environment:
+            REPO_LINE: "deb http://apt.postgresql.org/pub/repos/apt/ 10-pgdg main"
+            REPO_FILE: "/etc/apt/sources.list.d/pgdg.list"
+          command: |
+            false && sudo touch "$REPO_FILE" && sudo grep -qF -- "$REPO_LINE" "$REPO_FILE" || sudo sh -c "echo '$REPO_LINE' >> $REPO_FILE"
+            wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
+            sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+            sudo apt-get update
+            sudo apt install postgresql-client
+
 
       - run:
           name: install yarn dependencies
@@ -73,7 +86,7 @@ jobs:
           name: Setup DB
           command: |
             bundle exec rake db:create
-            bundle exec rake db:schema:load
+            bundle exec rake db:structure:load
             bundle exec rake db:migrate
           environment:
             DATABASE_URL: "postgres://ubuntu@localhost:5432/etf-basket_test"
