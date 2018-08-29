@@ -1,0 +1,38 @@
+p#notice = notice
+
+.py-5.text-center
+  h1= "#{@etf.name} in #{@tracking.portfolio.name}"
+  h3 Constituents
+
+.row
+  .col-md-8
+    table.table.table-striped.table-sm
+      thead
+        tr
+          th Name
+          th Symbol
+          th Weight
+          th Owned (count)
+          th Shares (%)
+          th Cost
+          th Value
+          th Actions
+
+      tbody
+        - @etf.constituents.each do |constituent|
+          - summarizer = TradesSummarizer.new(constituent, @tracking)
+          tr
+            td = constituent.name
+            td = constituent.symbol
+            td = constituent.weight
+            td = summarizer.owned_count
+            td = summarizer.owned_weight
+            td = summarizer.cost
+            td = summarizer.value
+            td
+              div = link_to 'Buy', edit_tracking_path(@tracking)
+              div = link_to 'Sell', edit_tracking_path(@tracking)
+.col-md-8
+  .row
+
+=< link_to 'Back to portfolio', portfolio_path(@tracking.portfolio)

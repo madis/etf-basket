@@ -21,6 +21,7 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   config.include Requests::JsonHelpers, type: :request
   config.expose_dsl_globally = true
+  config.backtrace_exclusion_patterns << %r{rvm/gems/ruby}
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end

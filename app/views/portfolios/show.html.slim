@@ -2,7 +2,7 @@ p#notice = notice
 
 .py-5.text-center
   h1= @portfolio.name
-  h3 Constituents
+  h3 Trackings
 
 .row
   .col-md-8
@@ -15,11 +15,11 @@ p#notice = notice
           th
 
       tbody
-        - @portfolio.etfs.each do |etf|
+        - @portfolio.trackings.each do |tracking|
           tr
-            td = etf.symbol
-            td = etf.name
-            td = link_to 'Buy', edit_portfolio_path(@portfolio)
+            td = tracking.etf.symbol
+            td = tracking.etf.name
+            td = link_to 'Trade', edit_tracking_path(tracking)
             td = link_to 'Destroy', @portfolio, data: { confirm: 'Are you sure?' }, method: :delete
 .col-md-8
   .row

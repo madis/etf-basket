@@ -1,3 +1,4 @@
 class Portfolio < ApplicationRecord
-  has_and_belongs_to_many :etfs
+  has_many :trackings
+  has_many :etfs, through: :trackings
 end
