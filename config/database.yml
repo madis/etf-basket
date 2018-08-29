@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: etf-basket_production
-  username: etf-basket
-  password: <%= ENV['ETF-BASKET_DATABASE_PASSWORD'] %>
+  database: etf_basket_production
+  username: etf_basket
+  password: <%= ENV['ETF_BASKET_DATABASE_PASSWORD'] %>
