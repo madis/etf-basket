@@ -30,6 +30,7 @@ gem 'dotenv-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'sentry-raven'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -47,9 +48,9 @@ group :development do
   # Use Capistrano for deployment
   gem 'capistrano', '~> 3.10', require: false
   gem 'capistrano-rails', '~> 1.4', require: false
-  gem 'capistrano-rvm', require: :false
+  gem 'capistrano-rvm', require: false
   gem 'capistrano-nvm', require: false
-  gem 'capistrano3-puma', github: "seuros/capistrano-puma"
+  gem 'capistrano3-puma', github: "seuros/capistrano-puma", require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
