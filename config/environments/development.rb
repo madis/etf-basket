@@ -60,4 +60,10 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+  Raven.configure do |config|
+    config.dsn = ENV['SENTRY_DSN']
+    config.environments = ['production']
+    config.sanitize_fields = Rails.application.config.filter_parameters.map(&:to_s)
+  end
 end
