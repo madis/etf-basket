@@ -1,7 +1,4 @@
 require_relative '../../app/services/basket_calculator'
-require_relative '../../app/models/basket'
-require_relative '../../app/models/prices'
-require_relative '../../app/models/index'
 
 module NumericWithPercent
   refine Numeric do
@@ -13,6 +10,10 @@ end
 
 RSpec.describe BasketCalculator do
   using NumericWithPercent
+
+  Prices = BasketCalculator::Prices
+  Index = BasketCalculator::Index
+  Basket = BasketCalculator::Basket
 
   it "$100 basket for 1 constituent" do
     prices = Prices.make { item(name: 'One', price: 10) }

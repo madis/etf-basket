@@ -1,3 +1,7 @@
+require_relative 'basket_calculator/basket'
+require_relative 'basket_calculator/prices'
+require_relative 'basket_calculator/index'
+
 class BasketCalculator
   def initialize(amount, index, prices)
     @amount = amount

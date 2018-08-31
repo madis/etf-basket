@@ -1,6 +1,6 @@
-require_relative '../../app/models/item_factory'
+require_relative '../../../app/services/basket_calculator/item_factory'
 
-RSpec.describe ItemFactory do
+RSpec.describe BasketCalculator::ItemFactory do
   SimpleItem = Struct.new(:name)
 
   class KeywordItem
@@ -34,14 +34,14 @@ RSpec.describe ItemFactory do
 
   it 'provides class with #make method allowing item DSL' do
     collection_class = Class.new(MyCollection)
-    collection_class.extend(ItemFactory.for(String, collection_class: collection_class, via: :add))
+    collection_class.extend(described_class.for(String, collection_class: collection_class, via: :add))
     collection = collection_class.make { item('Hello'); item('World') }
     expect(collection.items).to contain_exactly 'Hello', 'World'
   end
 
   it 'added make method allows keyword args' do
     collection_class = Class.new(MyCollection)
-    collection_class.extend(ItemFactory.for(KeywordItem, collection_class: collection_class, via: :add))
+    collection_class.extend(described_class.for(KeywordItem, collection_class: collection_class, via: :add))
     collection = collection_class.make { item(name: 'Hello', amount: 100) }
     expect(collection.items).to contain_exactly KeywordItem.new(name: 'Hello', amount: 100)
   end
